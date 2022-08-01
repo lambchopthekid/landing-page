@@ -44,3 +44,35 @@ button {
     width: 100px;
     height: 45px;
 }
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    
+}
+
+.card-container {
+    display:flex;
+    gap: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.card-text {
+    width: 200px;
+}
