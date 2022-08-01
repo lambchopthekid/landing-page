@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .hero {
@@ -23,6 +24,16 @@ body {
 .hero-bottom {
     display: flex;
     justify-content: space-around;
+    padding: 25px;
+}
+
+.left-hero-bottom-header {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.left-hero-bottom-text {
+    font-size: 20px;
 }
 
 button {
