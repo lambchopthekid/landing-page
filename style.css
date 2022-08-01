@@ -19,3 +19,17 @@ body {
     display: flex;
     gap: 30px;
 }
+
+.hero-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 45px;
+}
