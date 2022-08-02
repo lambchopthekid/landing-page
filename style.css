@@ -41,8 +41,9 @@ body {
 button {
     background-color: #3882F6;
     color: white;
-    border-radius: 20px;
-    border: none;
+    border-radius: 15px;
+    border: white;
+    border-style: solid;
     width: 100px;
     height: 45px;
 }
@@ -112,5 +113,16 @@ img {
     align-items: center;
     background-color: #3882F6;
     color: white;
-    margin: 75px;
+    margin: 50px;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 15px;
+    justify-content: space-between;
+    min-width: 600px;
+}
+
+.banner-header {
+    font-size: 20px;
+    font-weight: bold;
 }
