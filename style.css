@@ -51,10 +51,6 @@ button {
     align-items: center;
 }
 
-.info-title {
-    
-}
-
 .card-container {
     display:flex;
     gap: 40px;
@@ -75,4 +71,6 @@ img {
 
 .card-text {
     width: 200px;
+    text-align: center;
+    color: #1F2937;
 }
