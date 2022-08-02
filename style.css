@@ -2,9 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding-left: 65px;
-    padding-right: 65px;
-    background-color: black;
 }
 
 .hero {
@@ -57,6 +54,7 @@ button {
     align-items: center;
     padding-bottom: 100px;
     background-color: white;
+    gap: 40px;
 }
 
 .info-title {
@@ -72,7 +70,6 @@ button {
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -141,7 +138,7 @@ img {
     color: white;
     padding: 20px;
     border: 0;
-    width: 96%;
+    width: 100%;
 }
 
 #top-button {
