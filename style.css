@@ -9,6 +9,8 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .header {
@@ -98,4 +100,17 @@ img {
     align-self: flex-end;
     font-size: 25px;
     font-weight: bold;
+}
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    margin: 75px;
 }
