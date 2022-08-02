@@ -49,6 +49,12 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
+}
+
+.info-title {
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 .card-container {
@@ -73,4 +79,23 @@ img {
     width: 200px;
     text-align: center;
     color: #1F2937;
+    font-size: large;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: bold;
 }
